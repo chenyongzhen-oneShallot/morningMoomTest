@@ -11,7 +11,7 @@ import HTMLTestRunner
 
 class demo(unittest.TestCase):
     def test_demo1(self):
-        url="http://172.16.5.65:9527/crontable/collect/recon/query"
+        url="http://xxx/crontable/collect/recon/query"
         data=None
         headers={"client":"web"}
         result = requests.get(url=url,data=data,headers=headers)
