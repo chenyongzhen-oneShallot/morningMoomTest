@@ -24,10 +24,10 @@ def _format_addr(s):
 ## ==============定义发送附件邮件==========
 def send_file(file_new,file_attach):
     smtpserver = 'smtp.qq.com'
-    user = '891354032@qq.com'
+    user = ''
     password = ''
-    sender = '891354032@qq.com'
-    receiver = 'cyz891354032@163.com'
+    sender = ''
+    receiver = ''
 
     file = open(file_new, 'r',encoding='utf-8').read()
     file1 = open(file_attach, 'r', encoding='utf-8').read()
