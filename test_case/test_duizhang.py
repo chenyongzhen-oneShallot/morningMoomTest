@@ -1,6 +1,6 @@
 #coding:utf-8
 #@Time    : 2018/11/21 11:37
-#@Author  : 陈勇臻
+#@Author  : 
 #@File    : test_duizhang.py
 import unittest
 import requests
