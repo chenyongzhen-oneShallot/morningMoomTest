@@ -1,6 +1,6 @@
 #coding:utf-8
 #@Time    : 2018/11/21 14:42
-#@Author  : 陈勇臻
+#@Author  : 
 #@File    : send_email_html_file.py
 
 from HTMLTestRunner import HTMLTestRunner
@@ -62,7 +62,7 @@ def send_file(file_new,file_attach):
     smtp = smtplib.SMTP()
     smtp.connect(smtpserver)
     smtp.login(user, password)
-    smtp.sendmail(sender, receiver,msg.as_string())
+    smtp.sendmail(msg['From'], msg['To'].split(','),msg.as_string())
     smtp.quit()
 
 
