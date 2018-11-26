@@ -1,6 +1,6 @@
 #coding:utf-8
 #@Time    : 2018/11/21 14:40
-#@Author  : 陈勇臻
+#@Author  : 
 #@File    : send_report.py
 import time
 import unittest
