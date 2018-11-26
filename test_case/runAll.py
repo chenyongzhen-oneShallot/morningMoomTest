@@ -1,6 +1,6 @@
 #coding:utf-8
 #@Time    : 2018/11/21 14:05
-#@Author  : 陈勇臻
+#@Author  : 
 #@File    : runAll.py
 import os
 import time
