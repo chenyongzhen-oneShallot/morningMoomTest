@@ -37,9 +37,9 @@ def send_file(file_new,file_attach):
 
     msg = MIMEMultipart('alternative')
     msg['Subject'] = Header(subject,'utf-8')
-    msg['From'] = '迷途小书童_臻<891354032@qq.com>'
-    msg_to = ['<cyz891354032@163.com>', '<891354032@qq.com>']
-    #msg['To'] = "<cyz891354032@163.com>"
+    msg['From'] = '迷途<@qq.com>'
+    msg_to = ['<@163.com>', '<@qq.com>']
+    #msg['To'] = "<@163.com>"
     msg['To'] = ','.join(msg_to)
 
     #att=MIMEText(sendfile,"base64","utf-8")
