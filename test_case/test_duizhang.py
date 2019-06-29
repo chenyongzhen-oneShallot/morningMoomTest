@@ -11,6 +11,7 @@ import HTMLTestRunner
 #TestCase类，所有测试用例类继承的基本类
 class duizhang(unittest.TestCase):
     def test_duizhang(self):
+        #函数名必须以test开头，因为凡是继承TestCase类的函数名必须以test开头
         url="http://xxx/crontable/collect/recon/query"
         data=None
         headers={"client":"web"}
